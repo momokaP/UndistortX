@@ -1,7 +1,7 @@
 # UndistortX
 OpenCV를 이용한 카메라 캘리브레이션 및 렌즈 왜곡 보정 프로그램
 
-### Camera calibration
+# Camera calibration
 
 카메라 캘리브레이션 수행 과정
 
@@ -20,7 +20,7 @@ OpenCV를 이용한 카메라 캘리브레이션 및 렌즈 왜곡 보정 프로
 * Distortion coefficient (k1, k2, p1, p2, k3, ...) = [ 0.00645102  0.08530672 -0.00891972  0.00220997 -0.09186439]
 ```
 
-### Lens distortion correction
+# Lens distortion correction
 
 correction 적용 전
 
