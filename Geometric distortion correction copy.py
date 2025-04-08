@@ -7,6 +7,11 @@ K = np.array([[627.9110147, 0, 628.71703011],
               [0, 0, 1]]) # Derived from `calibrate_camera.py`
 dist_coeff = np.array([0.00645102, 0.08530672, -0.00891972, 0.00220997, -0.09186439])
 
+K_2 = np.array([[643.14290617, 0, 628.05787316],
+              [0, 623.13889542, 339.32730006],
+              [0, 0, 1]])
+dist_coeff_2 = np.array([ 0.00089716,  0.12311739, -0.01081972,  0.00367906, -0.15036632])
+
 video = cv.VideoCapture(video_file)
 assert video.isOpened(), 'Cannot read the given input, ' + video_file
 
