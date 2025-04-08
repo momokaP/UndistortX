@@ -1,6 +1,13 @@
 # UndistortX
 OpenCV를 이용한 카메라 캘리브레이션 및 렌즈 왜곡 보정 프로그램
 
+Camera calibration copy.py는 video_file에 캘리프레이션을 수행할 비디오 파일의 경로를 지정하면, 카메라 캘리브레이션을 수행합니다. 
+
+Geometric distortion correction copy.py는 캘리프레이션을 수행한 결과를 K와 dist_coeff에 입력하고, 
+
+video_file에 렌즈 왜곡 보정을 수행할 비디오 파일의 경로를 지정하면 렌즈 왜곡 보정을 수행합니다.
+
+
 # Camera calibration
 
 카메라 캘리브레이션 수행 과정
